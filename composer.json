@@ -1,0 +1,22 @@
+{
+    "name": "lightster/lstr-silex-phpmig",
+    "description": "Lstr/Silex/Phpmig Library",
+    "keywords": [
+        "silex",
+        "lstr",
+        "lightster",
+        "database",
+        "phpmig"
+    ],
+    "homepage": "http://lightdatasys.com",
+    "autoload": {
+        "psr-4": {
+            "Lstr\\Silex\\Phpmig\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3",
+        "silex/silex": "~1.1",
+        "lightster/lstr-silex-database": "~0.0.4"
+    }
+}
