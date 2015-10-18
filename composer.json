@@ -17,6 +17,7 @@
     "require": {
         "php": ">=5.3",
         "silex/silex": "~1.1",
+        "davedevelopment/phpmig": "^1.2.0",
         "lightster/lstr-silex-database": "~0.0.4"
     }
 }
